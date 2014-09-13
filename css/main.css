@@ -1,8 +1,65 @@
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
-.profile {
+
+* {
+	border: 1px solid blue;
+}
+/*body {
+	padding: 30px;
+}*/
+
+/*#page {
+	padding: 20px;
+	background-color: orange
+}*/
+#header {
+	padding: 0px 10px 0px 10px;
+	background-color: #090909;
+}
+#nav {
+}
+.title {
+	margin: 10px 10px 10px 10px;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #fff;
 	display: inline-block;
 }
-.profile img {
-	height: 50px;
-	width: 50px;
+.subheader {
+	font-size: 12pt;
+	font-weight: lighter;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
 }
+.logo {
+	font-size: 22pt;
+	font-weight: lighter;
+}
+
+#content {
+	padding: 10px 10px 0px 10px;
+}
+.info {
+	display: inline-block;
+}
+p {
+	margin: 0px 0px 10px 0px;
+	padding: 10px 10px 10px 10px;
+}
+
+img {
+	height: 100px;
+	width: 100px;
+	padding: 0px 10px 0px 0px;
+	margin: 0px;
+}
+
+/*.profile {
+	margin: 20px;
+	border: 2px solid black;
+	display: block;
+}
+.profile img {
+	height: 100px;
+	width: 100px;
+	padding: 20px;
+	border: 2px solid black;
+}*/
