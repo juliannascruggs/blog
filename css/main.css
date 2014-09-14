@@ -6,11 +6,6 @@
 /*body {
 	padding: 30px;
 }*/
-
-/*#page {
-	padding: 20px;
-	background-color: orange
-}*/
 * {
 	box-sizing: border-box;
 }
@@ -24,7 +19,8 @@ body {
 	min-width: 461px;
 	max-width: 1096px;
 	margin: auto;
-
+/*	margin: -5px 0px 0px 0px;
+*/
 }
 #header {
 	padding: 0px 10px 0px 10px;
@@ -48,13 +44,10 @@ body {
 	float: right;
 }
 .logo {
-/*	height: 113px;
-	width: 168px;*/
 	margin:-5px -40px 0px 15px; 
 	font-size: 22pt;
 	font-weight: lighter;
 	display: block;	
-/*	background-image: "images/scruggs.png";*/
 }
 
 #content {
@@ -70,24 +63,19 @@ body {
 	width: 25%;
 	max-height: 180px;
 	max-width: 180px;
-/*	padding-top: 20px;*/
 	float: left;
-/*	padding: 20px;*/
-/*	display: inline-block;
-*/
 	margin-top: 15px;
 	margin-right: 40px;
 }
 .post {
 	width: 70%;
 	height: 100%;
-	background-color: orange;
+	background-color: #fffeef;
 	box-shadow: 0 0 8px #a2a2a2;
 	border-radius: 1px;
 	margin: auto;
 	padding: 0px 10px 16px 10px;
 	float: left;
-/*	display: inline-block;*/
 }
 .post p {
 	margin-left: 20px;
@@ -99,16 +87,11 @@ body {
 }
 .post p span {
 	font-weight: bold;
-/*	color: #252525;*/
 	text-transform: uppercase;
 	padding-right: 10px;
 }
-/*	margin: 20px 50px 0px 0px;*/
-
-
 #title {
 	font-size: 18pt;
-/*	color: #282828;*/
 	letter-spacing: 0.08em;
 }
 #subtitle {
@@ -118,35 +101,19 @@ body {
 }
 #p1 {
 	padding-top: 5px;
-	margin-top: -5px
+	margin-top: -5px;
+	min-width:100px;
 }
-
-/*.right p {
-	height:100%;
-	width:100%;
-	background-color: #eee;
-	border-radius: 5px;
-	margin: 0px 0px 10px 0px;
-	padding: 10px 10px 10px 10px;
-}*/
 .left img {
-/*	height: 180px;
-	width: 180px;*/
 	height: 100%;
 	width:100%;
-/*	margin:20px;*/
 	border-radius: 100%;
-/*	display: block;*/
 }
 .left p {
-/*	height: 180px;
-	width: 180px;
-*/	height: 100%;
+	height: 100%;
 	width:100%;
-/*	margin:20px;
-	display: block;*/
-	background-color: white;
-	border: blue 3px solid;
+	min-width: 150px;
+	font-weight: bold;
 }
 #nav a:link {
 	text-decoration: none;
@@ -166,14 +133,3 @@ body {
 	color: white;
 	border-bottom: 16px solid white;
 }
-/*.profile {
-	margin: 20px;
-	border: 2px solid black;
-	display: block;
-}
-.profile img {
-	height: 100px;
-	width: 100px;
-	padding: 20px;
-	border: 2px solid black;
-}*/
