@@ -60,34 +60,36 @@ body {
 #content {
 	padding: 10px 10px 0px 10px;
 }
-.profile {
+.info {
 	margin: 20px;
 	padding: 10px;
 	display: inline-block;
+	width:100%;
 }
 .left {
 	width: 25%;
 	max-height: 180px;
 	max-width: 180px;
-/*	margin: 10px;
-*/	margin: auto;
-	padding-right: 10px;
+/*	padding-top: 20px;*/
 	float: left;
-	display: inline-block;
+/*	padding: 20px;*/
+/*	display: inline-block;
+*/
+	margin-top: 15px;
+	margin-right: 40px;
 }
-.right {
-	width: 75%;
+.post {
+	width: 70%;
 	height: 100%;
 	background-color: orange;
+	box-shadow: 0 0 8px #a2a2a2;
 	border-radius: 1px;
 	margin: auto;
 	padding: 0px 10px 16px 10px;
 	float: left;
-	display: inline-block;
-
-
+/*	display: inline-block;*/
 }
-.right p {
+.post p {
 	margin-left: 20px;
 	margin-right: 20px;
 	font-size: 14px;
@@ -95,27 +97,30 @@ body {
 	color: #252525;
 	font-family: 'Roboto', Futura, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
-.right p span {
+.post p span {
 	font-weight: bold;
 /*	color: #252525;*/
 	text-transform: uppercase;
 	padding-right: 10px;
 }
-#name {
+/*	margin: 20px 50px 0px 0px;*/
+
+
+#title {
 	font-size: 18pt;
 /*	color: #282828;*/
 	letter-spacing: 0.08em;
 }
-#city {
+#subtitle {
 	margin-top: -20px;
 	font-weight: bold;
+	margin-bottom: 40px;
 }
-#job {
+#p1 {
 	padding-top: 5px;
+	margin-top: -5px
 }
-#hobbies {
-	margin-top: -5px;
-}
+
 /*.right p {
 	height:100%;
 	width:100%;
@@ -125,20 +130,28 @@ body {
 	padding: 10px 10px 10px 10px;
 }*/
 .left img {
+/*	height: 180px;
+	width: 180px;*/
 	height: 100%;
-	width: 100%;
-	margin-right: 5px;
+	width:100%;
+/*	margin:20px;*/
 	border-radius: 100%;
-	display: block;
+/*	display: block;*/
 }
-.info {
-	display: block;
+.left p {
+/*	height: 180px;
+	width: 180px;
+*/	height: 100%;
+	width:100%;
+/*	margin:20px;
+	display: block;*/
+	background-color: white;
+	border: blue 3px solid;
 }
 #nav a:link {
 	text-decoration: none;
 	color: white;
-	padding-bottom: 17px;
-/*	margin-left: 2px;*/
+	padding-bottom: 14px;
 }
 #nav a:visited {
 	color: white;
