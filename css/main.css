@@ -14,6 +14,9 @@
 * {
 	box-sizing: border-box;
 }
+html {
+	-webkit-font-smoothing: antialiased;
+}
 body {
 }
 
@@ -36,12 +39,10 @@ body {
 }
 .subheader {
 	font-size: 11pt;
-	font-weight: lighter;
 	letter-spacing: 0.2em;
-/*	text-transform: uppercase;*/
 	margin: 90px 20px 10px 0px;
 	padding-right: 10px;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: 'Roboto', Futura, Helvetica Neue, Helvetica, Arial, sans-serif;
 	color: #fff;
 	display: inline-block;
 	float: right;
@@ -77,10 +78,9 @@ body {
 .right {
 	width: 75%;
 	height: 100%;
-	background-color: white;
-	border-radius: 5px;
-/*	margin: 0px 0px 10px 0px;
-*/	margin: auto;
+	background-color: orange;
+	border-radius: 1px;
+	margin: auto;
 	padding: 0px 10px 16px 10px;
 	float: left;
 	display: inline-block;
@@ -91,8 +91,9 @@ body {
 	margin-left: 20px;
 	margin-right: 20px;
 	font-size: 14px;
-	letter-spacing: 0.3em;
+	letter-spacing: 0.05em;
 	color: #252525;
+	font-family: 'Roboto', Futura, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 .right p span {
 	font-weight: bold;
